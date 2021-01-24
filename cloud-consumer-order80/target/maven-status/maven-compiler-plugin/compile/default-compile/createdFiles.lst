@@ -1,0 +1,3 @@
+com\joe\consumer\order80\config\RestTemplateConfig.class
+com\joe\consumer\order80\ConsumerMain80.class
+com\joe\consumer\order80\controller\consumerController.class
