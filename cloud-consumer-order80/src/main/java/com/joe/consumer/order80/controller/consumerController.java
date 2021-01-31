@@ -2,7 +2,6 @@ package com.joe.consumer.order80.controller;
 
 import com.joe.commons.entities.CommonResult;
 import com.joe.commons.entities.Payment;
-import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -14,7 +13,9 @@ import javax.annotation.Resource;
 @RequestMapping("/consumer")
 public class consumerController {
 
-    public static final String HTTP_URL="http://localhost:8001/payment8001/";
+//    public static final String HTTP_URL="http://localhost:8001/payment8001/";
+
+    public static final String HTTP_URL = "http://CLOUD-PAYMENT-SERVICE/payment8001/";
 
     @Resource
     private RestTemplate restTemplate;
