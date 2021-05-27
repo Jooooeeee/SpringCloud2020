@@ -1,3 +1,6 @@
 com\joe\consumer\order80\config\RestTemplateConfig.class
 com\joe\consumer\order80\ConsumerMain80.class
+com\joe\consumer\order80\lb\LoadBalancer.class
+com\joe\consumer\ribbonRule\MyselfRule.class
 com\joe\consumer\order80\controller\consumerController.class
+com\joe\consumer\order80\lb\MyLb.class

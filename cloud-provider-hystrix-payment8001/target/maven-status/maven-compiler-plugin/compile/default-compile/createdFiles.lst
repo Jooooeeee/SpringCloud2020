@@ -1,0 +1,3 @@
+com\joe\provider\controller\paymentController.class
+com\joe\provider\service\PaymentServiceImpl.class
+com\joe\provider\PaymentHystrix8001.class

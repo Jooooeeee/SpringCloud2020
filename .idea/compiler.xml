@@ -10,7 +10,12 @@
         <module name="cloud-eureka-server7002" />
         <module name="cloud-api-commons" />
         <module name="cloud-eureka-server7001" />
+        <module name="cloud-provider-hystrix-feign-order80" />
         <module name="cloud-consumer-order80" />
+        <module name="spring-cloud-gateway9527" />
+        <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="payment8002" />
         <module name="payment8001" />
       </profile>

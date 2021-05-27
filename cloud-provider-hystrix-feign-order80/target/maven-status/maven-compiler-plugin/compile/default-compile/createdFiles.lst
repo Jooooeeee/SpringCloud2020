@@ -1,0 +1,4 @@
+com\joe\order\server\PaymentFeignServer.class
+com\joe\order\controller\OrderFeignController.class
+com\joe\order\server\PaymentFeignServerImpl.class
+com\joe\order\ConsumerHystrixFeign80.class

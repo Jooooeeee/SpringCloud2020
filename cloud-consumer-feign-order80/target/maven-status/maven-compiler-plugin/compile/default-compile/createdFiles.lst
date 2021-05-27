@@ -1,0 +1,4 @@
+com\joe\consumer\server\PaymentFeignServer.class
+com\joe\consumer\controller\OrderFeignController.class
+com\joe\consumer\config\FeignLoggerConfig.class
+com\joe\consumer\ConsumerFeign80.class
