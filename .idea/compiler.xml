@@ -16,6 +16,7 @@
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-center3344" />
         <module name="payment8002" />
         <module name="payment8001" />
       </profile>
