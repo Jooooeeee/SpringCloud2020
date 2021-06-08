@@ -7,12 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:Jooooeeee/SpringCloud2020.git #Github 上面的git仓库名字
+          uri: https://github.com/Jooooeeee/config-repo.git #Github 上面的git仓库名字
          #搜索目录
           search-paths:
             - config-repo
+          default-label: main
         #读取分支
-      label: main
 
 eureka:
   client:
@@ -20,3 +20,7 @@ eureka:
     fetchRegistry: true #false表示自己就是注册中心，我的职责就是维护服务实例，不需要去检索服务
     service-url: #设置与eureka server服务的交换地址，查询服务和注册服务都需要依赖这个地址
       defaultZone: http://eureka7001.com:7001/eureka
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
