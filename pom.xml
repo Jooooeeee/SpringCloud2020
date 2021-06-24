@@ -22,6 +22,7 @@
       <module>cloud-provider-hystrix-feign-order80</module>
       <module>spring-cloud-gateway9527</module>
       <module>cloud-config-center3344</module>
+      <module>cloudconfig3355</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
