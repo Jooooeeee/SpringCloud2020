@@ -1,8 +1,8 @@
 server:
-  port: 3355
+  port: 3366
 spring:
   application:
-    name: config-client
+    name: config-client2
   cloud:
     config:
       label: main #分支名称

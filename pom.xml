@@ -23,6 +23,7 @@
       <module>spring-cloud-gateway9527</module>
       <module>cloud-config-center3344</module>
       <module>cloudconfig3355</module>
+      <module>cloud-config-3366</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

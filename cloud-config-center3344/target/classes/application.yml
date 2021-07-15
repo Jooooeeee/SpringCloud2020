@@ -13,6 +13,12 @@ spring:
             - config-repo
           default-label: main
         #读取分支
+  #配置rabbitmq
+  rabbitmq:
+    host: 192.168.31.67
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
@@ -24,3 +30,10 @@ logging:
   level:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
+
+#actuator 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

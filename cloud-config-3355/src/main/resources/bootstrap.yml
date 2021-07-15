@@ -9,7 +9,21 @@ spring:
       name: config #配置文件名称
       profile: dev #读取后缀名称 上述3个综合：main分支上config-dev.yml的配置文件被读取
       uri: http://localhost:3344/ #配置中心地址
+
+  rabbitmq:
+    host: 192.168.31.67
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+#暴露监控点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
